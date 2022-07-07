@@ -8,7 +8,8 @@ type Props = {
 }
 
 export const ListItem = ({ item, onChange }: Props) => {
-    const [isChecked, setIsChecked] = useState(item.done);
+    const [isChecked
+    ] = useState(item.done);
     return (
         <C.Container done={isChecked}>
             <input
