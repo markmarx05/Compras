@@ -5,7 +5,7 @@ type Props = {
     onEnter: (taskName: string) => void
 }
 
-export const AddArea = ({onEnter}: Props) => {
+export const AddArea = ({ onEnter }: Props) => {
     const [inputText, setInputText] = useState('');
 
     const handleKeyUp = (e: KeyboardEvent) => {

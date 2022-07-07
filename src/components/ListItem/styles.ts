@@ -6,7 +6,6 @@ type ContainerProps = {
 
 export const Container = styled.div(({ done }: ContainerProps)=>(
     `
-
     display: flex;
     background-color: #20212C;
     padding: 10px;
